@@ -6,20 +6,21 @@ import android.view.View;
 
 import com.zhang.greendao.GreenDaoDoc;
 
+import org.greenrobot.greendao.database.Database;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        GreenDaoDoc.context=getApplicationContext();
     }
 
     public void add(View view) {
-        GreenDaoDoc.insert();
+//        GreenDaoDoc.insert();
     }
 
     public void query(View view) {
-        GreenDaoDoc.query("使用greendao文档");
+//        GreenDaoDoc.query("使用greendao文档");
     }
 }
