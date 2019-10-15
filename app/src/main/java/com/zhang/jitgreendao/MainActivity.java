@@ -17,10 +17,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void add(View view) {
-//        GreenDaoDoc.insert();
+        GreenDaoDoc.insert();
     }
 
     public void query(View view) {
-//        GreenDaoDoc.query("使用greendao文档");
+        GreenDaoDoc.query("使用greendao文档");
     }
 }
